@@ -35,7 +35,7 @@ public class Aula implements Serializable {
     private Turma turma;
     
     @ManyToOne
-    private DisciplinaTurma disciplina;
+    private DisciplinaTurma disciplinaTurma;
     
     @ManyToOne(cascade = CascadeType.ALL)
     private Horario horario;
@@ -75,12 +75,12 @@ public class Aula implements Serializable {
         this.turma = turma;
     }
 
-    public DisciplinaTurma getDisciplina() {
-        return disciplina;
+    public DisciplinaTurma getDisciplinaTurma() {
+        return disciplinaTurma;
     }
 
-    public void setDisciplina(DisciplinaTurma disciplina) {
-        this.disciplina = disciplina;
+    public void setDisciplinaTurma(DisciplinaTurma disciplinaTurma) {
+        this.disciplinaTurma = disciplinaTurma;
     }
 
     public Horario getHorario() {
@@ -118,7 +118,7 @@ public class Aula implements Serializable {
 
     @Override
     public String toString() {
-        return "Aula{" + "id=" + id + ", professor=" + professor + ", sala=" + sala + ", turma=" + turma + ", disciplina=" + disciplina + ", horario=" + horario + '}';
+        return "Aula{" + "id=" + id + ", professor=" + professor + ", sala=" + sala + ", turma=" + turma + ", disciplina=" + disciplinaTurma + ", horario=" + horario + '}';
     }
 
 }
