@@ -12,6 +12,8 @@
     <class>br.com.inovatec.grid.entidades.Sala</class>
     <class>br.com.inovatec.grid.entidades.Turma</class>
     <class>br.com.inovatec.grid.entidades.Usuario</class>
+    <class>br.com.inovatec.grid.entidades.DiaAula</class>
+    <class>br.com.inovatec.grid.entidades.Escola</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/grid"/>
       <property name="javax.persistence.jdbc.user" value="postgres"/>

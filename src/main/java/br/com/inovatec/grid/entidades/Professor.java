@@ -2,15 +2,22 @@ package br.com.inovatec.grid.entidades;
 
 import java.util.ArrayList;
 import java.util.List;
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 import javax.persistence.SequenceGenerator;
 
 @Entity
+@NamedQueries(value = {
+    @NamedQuery(name = "professor.findAll", query = "SELECT p FROM Professor p")
+})
 public class Professor extends Gerenciavel {
 
     @Id
@@ -30,10 +37,14 @@ public class Professor extends Gerenciavel {
     
     @Embedded
     private Endereco endereco;
+    
+    @ManyToMany
+    private List<Disciplina> disciplinas;
 
     public Professor() {
         super();
         this.telefones = new ArrayList<>();
+        this.disciplinas = new ArrayList<>();
     }
 
     @Override
@@ -92,6 +103,14 @@ public class Professor extends Gerenciavel {
 
     public void setEndereco(Endereco endereco) {
         this.endereco = endereco;
+    }
+
+    public List<Disciplina> getDisciplinas() {
+        return disciplinas;
+    }
+
+    public void setDisciplinas(List<Disciplina> disciplinas) {
+        this.disciplinas = disciplinas;
     }
 
     @Override

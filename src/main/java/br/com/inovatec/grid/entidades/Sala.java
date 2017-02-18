@@ -8,9 +8,14 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 import javax.persistence.SequenceGenerator;
 
 @Entity
+@NamedQueries(value = {
+    @NamedQuery(name = "sala.findAll", query = "SELECT s FROM Sala s")
+})
 public class Sala extends Gerenciavel {
     
     @Id

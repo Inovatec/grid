@@ -1,10 +1,13 @@
 package br.com.inovatec.grid.entidades;
 
 import java.io.Serializable;
-import java.time.LocalDateTime;
+import java.time.DayOfWeek;
+import java.time.LocalTime;
 import java.util.Objects;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -19,13 +22,23 @@ public class Horario implements Serializable {
     @SequenceGenerator(name = "HORARIO_ID", initialValue = 1, allocationSize = 1, sequenceName = "HORARIO_ID_SEQ")
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "HORARIO_ID")
     private Long id;
+    
+    @Enumerated(EnumType.STRING)
+    private DayOfWeek diaDaSemana;
 
     @Column
-    private LocalDateTime inicio;
+    private LocalTime inicio;
+    
     @Column
-    private LocalDateTime fim;
+    private LocalTime fim;
 
     public Horario() {
+    }
+
+    public Horario(DayOfWeek diaDaSemana, LocalTime inicio, LocalTime fim) {
+        this.diaDaSemana = diaDaSemana;
+        this.inicio = inicio;
+        this.fim = fim;
     }
 
     public Long getId() {
@@ -36,19 +49,27 @@ public class Horario implements Serializable {
         this.id = id;
     }
 
-    public LocalDateTime getInicio() {
+    public DayOfWeek getDiaDaSemana() {
+        return diaDaSemana;
+    }
+
+    public void setDiaDaSemana(DayOfWeek diaDaSemana) {
+        this.diaDaSemana = diaDaSemana;
+    }
+
+    public LocalTime getInicio() {
         return inicio;
     }
 
-    public void setInicio(LocalDateTime inicio) {
+    public void setInicio(LocalTime inicio) {
         this.inicio = inicio;
     }
 
-    public LocalDateTime getFim() {
+    public LocalTime getFim() {
         return fim;
     }
 
-    public void setFim(LocalDateTime fim) {
+    public void setFim(LocalTime fim) {
         this.fim = fim;
     }
 
@@ -79,7 +100,7 @@ public class Horario implements Serializable {
 
     @Override
     public String toString() {
-        return "Horario{" + "id=" + id + ", inicio=" + inicio + ", fim=" + fim + '}';
+        return "Horario{" + "id=" + id + ", diaDaSemana=" + diaDaSemana + ", inicio=" + inicio + ", fim=" + fim + '}';
     }
 
 }
