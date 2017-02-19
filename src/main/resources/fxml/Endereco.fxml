@@ -21,7 +21,7 @@
             <Font name="System Bold" size="22.0" />
          </font>
       </Button>
-      <Label layoutX="161.0" layoutY="14.0" text="Disciplina Turma" textFill="#f3f3f4">
+      <Label layoutX="161.0" layoutY="14.0" text="Cadastro de Endereço" textFill="#f3f3f4">
          <font>
             <Font name="System Bold" size="30.0" />
          </font>
@@ -31,35 +31,47 @@
             <Font name="System Bold" size="22.0" />
          </font>
       </Button>
-      <Label layoutX="12.0" layoutY="129.0" prefHeight="36.0" prefWidth="165.0" text="Disciplina Turma:" textFill="#f7f7f8">
+      <Label layoutX="12.0" layoutY="129.0" prefHeight="36.0" prefWidth="165.0" text="Número:" textFill="#f7f7f8">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
       <TextField id="txNomeUsuario" layoutX="183.0" layoutY="95.0" prefHeight="25.0" prefWidth="402.0" />
-      <Label layoutX="14.0" layoutY="89.0" text="Professor:" textFill="#f7f7f8">
+      <Label layoutX="14.0" layoutY="89.0" text="Logradoro:" textFill="#f7f7f8">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <TextField id="txSenha" layoutX="184.0" layoutY="134.0" prefHeight="25.0" prefWidth="402.0" />
-      <TextField id="txSenha" layoutX="183.0" layoutY="176.0" prefHeight="25.0" prefWidth="402.0" />
-      <Label layoutX="14.0" layoutY="171.0" prefHeight="36.0" prefWidth="88.0" text="Horário:" textFill="#f7f7f8">
+      <TextField id="txSenha" layoutX="184.0" layoutY="134.0" prefHeight="25.0" prefWidth="94.0" />
+      <Label layoutX="290.0" layoutY="129.0" prefHeight="36.0" prefWidth="88.0" text="Cidade:" textFill="#f7f7f8">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <Label layoutX="25.0" layoutY="213.0" prefHeight="36.0" prefWidth="47.0" text="Sala:" textFill="#f7f7f8">
+      <TextField id="txSenha" layoutX="364.0" layoutY="134.0" prefHeight="25.0" prefWidth="222.0" />
+      <Label layoutX="15.0" layoutY="171.0" prefHeight="36.0" prefWidth="72.0" text="Pais:" textFill="#f7f7f8">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <TextField id="txSenha" layoutX="184.0" layoutY="218.0" prefHeight="25.0" prefWidth="402.0" />
-      <TextField id="txSenha" layoutX="185.0" layoutY="254.0" prefHeight="25.0" prefWidth="402.0" />
-      <Label layoutX="23.0" layoutY="249.0" prefHeight="36.0" prefWidth="72.0" text="Turma:" textFill="#f7f7f8">
+      <TextField id="txSenha" layoutX="184.0" layoutY="179.0" prefHeight="25.0" prefWidth="181.0" />
+      <Label layoutX="374.0" layoutY="174.0" prefHeight="36.0" prefWidth="42.0" text="UF:" textFill="#f7f7f8">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
+      <TextField id="txSenha" layoutX="418.0" layoutY="178.0" prefHeight="25.0" prefWidth="165.0" />
+      <Label layoutX="15.0" layoutY="240.0" prefHeight="36.0" prefWidth="72.0" text="Bairro:" textFill="#f7f7f8">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField id="txSenha" layoutX="184.0" layoutY="246.0" prefHeight="25.0" prefWidth="402.0" />
+      <Label layoutX="15.0" layoutY="210.0" prefHeight="36.0" prefWidth="150.0" text="Complemento:" textFill="#f7f7f8">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField id="txSenha" layoutX="184.0" layoutY="215.0" prefHeight="25.0" prefWidth="402.0" />
    </children>
 </Pane>

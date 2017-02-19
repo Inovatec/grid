@@ -21,7 +21,7 @@
             <Font name="System Bold" size="22.0" />
          </font>
       </Button>
-      <Label layoutX="161.0" layoutY="14.0" text="Cadastro de Disciplina" textFill="#f3f3f4">
+      <Label layoutX="253.0" layoutY="14.0" text="Dia-Aula" textFill="#f3f3f4">
          <font>
             <Font name="System Bold" size="30.0" />
          </font>
@@ -31,17 +31,24 @@
             <Font name="System Bold" size="22.0" />
          </font>
       </Button>
-      <Label layoutX="27.0" layoutY="159.0" text="Descrição:" textFill="#f7f7f8">
+      <Label layoutX="16.0" layoutY="144.0" text="Total de Aulas:" textFill="#f7f7f8">
          <font>
             <Font name="System Bold" size="25.0" />
          </font>
       </Label>
-      <TextField id="txNomeUsuario" layoutX="165.0" layoutY="112.0" prefHeight="25.0" prefWidth="421.0" />
-      <Label layoutX="65.0" layoutY="107.0" text="Nome:" textFill="#f7f7f8">
+      <TextField id="txLogin" layoutX="210.0" layoutY="150.0" prefHeight="25.0" prefWidth="159.0" />
+      <Label layoutX="113.0" layoutY="189.0" text="Turno:" textFill="#f7f7f8">
          <font>
             <Font name="System Bold" size="25.0" />
          </font>
       </Label>
-      <TextField id="txSenha" layoutX="165.0" layoutY="159.0" prefHeight="25.0" prefWidth="421.0" />
+      <Label layoutX="17.0" layoutY="96.0" text="Dia da semana:" textFill="#f7f7f8">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField id="txSenha" layoutX="210.0" layoutY="194.0" prefHeight="25.0" prefWidth="159.0" />
+      <HBox layoutX="213.0" layoutY="102.0" />
+      <TextField id="txLogin" layoutX="210.0" layoutY="105.0" prefHeight="25.0" prefWidth="159.0" />
    </children>
 </Pane>

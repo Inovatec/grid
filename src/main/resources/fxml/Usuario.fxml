@@ -21,7 +21,7 @@
             <Font name="System Bold" size="22.0" />
          </font>
       </Button>
-      <Label layoutX="161.0" layoutY="14.0" text="Cadastro de Disciplina" textFill="#f3f3f4">
+      <Label layoutX="161.0" layoutY="14.0" text="Cadastro de  Usuáiro" textFill="#f3f3f4">
          <font>
             <Font name="System Bold" size="30.0" />
          </font>
@@ -31,7 +31,13 @@
             <Font name="System Bold" size="22.0" />
          </font>
       </Button>
-      <Label layoutX="27.0" layoutY="159.0" text="Descrição:" textFill="#f7f7f8">
+      <Label layoutX="68.0" layoutY="144.0" text="Login:" textFill="#f7f7f8">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField id="txLogin" layoutX="165.0" layoutY="149.0" prefHeight="25.0" prefWidth="421.0" />
+      <Label layoutX="61.0" layoutY="185.0" text="Senha:" textFill="#f7f7f8">
          <font>
             <Font name="System Bold" size="25.0" />
          </font>
@@ -42,6 +48,6 @@
             <Font name="System Bold" size="25.0" />
          </font>
       </Label>
-      <TextField id="txSenha" layoutX="165.0" layoutY="159.0" prefHeight="25.0" prefWidth="421.0" />
+      <TextField id="txSenha" layoutX="166.0" layoutY="189.0" prefHeight="25.0" prefWidth="421.0" />
    </children>
 </Pane>

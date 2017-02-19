@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="494.0" prefWidth="600.0" style="-fx-background-color: #32CD32;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.inovatec.grid.telas.TelaLoginController">
+   <children>
+      <Button layoutX="181.0" layoutY="364.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="109.0" text="Logar" textFill="#070707">
+         <font>
+            <Font size="21.0" />
+         </font></Button>
+      <Button layoutX="431.0" layoutY="365.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="109.0" text="Sair">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <TextField layoutX="181.0" layoutY="243.0" prefHeight="25.0" prefWidth="359.0">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <Label layoutX="21.0" layoutY="232.0" text="Usuário:" textFill="#fffdfd">
+         <font>
+            <Font size="41.0" />
+         </font></Label>
+      <Label layoutX="46.0" layoutY="294.0" text="Senha:" textFill="WHITE">
+         <font>
+            <Font size="41.0" />
+         </font></Label>
+      <TextField layoutX="181.0" layoutY="305.0" prefHeight="25.0" prefWidth="359.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Pane layoutX="224.0" layoutY="48.0" prefHeight="151.0" prefWidth="200.0" style="-fx-background-color: #F5F5F5; -fx-border-radius: 5px;">
+         <children>
+            <ImageView fitHeight="189.0" fitWidth="200.0" layoutX="7.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/02.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

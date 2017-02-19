@@ -1,32 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.scene.text.*?>
 <?import java.lang.*?>
+<?import java.net.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller=".ProfessorController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="377.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label layoutX="98.0" layoutY="311.0" text="Endereço:" />
-      <TextField layoutX="164.0" layoutY="307.0" prefHeight="25.0" prefWidth="359.0" />
-      <TextField layoutX="164.0" layoutY="271.0" prefHeight="25.0" prefWidth="359.0" />
-      <Label layoutX="98.0" layoutY="275.0" text="E-Mail:" />
-      <Label layoutX="98.0" layoutY="237.0" text="Telefone" />
-      <TextField layoutX="164.0" layoutY="233.0" prefHeight="25.0" prefWidth="359.0" />
-      <TextField layoutX="164.0" layoutY="198.0" prefHeight="25.0" prefWidth="359.0" />
-      <Label layoutX="98.0" layoutY="202.0" text="CPF:" />
-      <Label layoutX="163.0" layoutY="46.0" text="Cadastro de Professor">
+      <ImageView fitHeight="386.0" fitWidth="600.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../telas%20grid%20-%20Copia/src/telas/grid_imagens/01.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="46.0" layoutY="59.0" text="Nome:" textFill="#f7f7f8">
          <font>
-            <Font size="30.0" />
+            <Font name="System Bold" size="25.0" />
          </font>
       </Label>
-      <Label layoutX="100.0" layoutY="158.0" text="RG:" />
-      <TextField layoutX="164.0" layoutY="154.0" prefHeight="25.0" prefWidth="359.0" />
-      <Label layoutX="96.0" layoutY="118.0" text="Nome:" />
-      <TextField layoutX="162.0" layoutY="114.0" prefHeight="25.0" prefWidth="359.0" />
-      <Button layoutX="484.0" layoutY="371.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="109.0" text="Cancelar" />
-      <Button layoutX="40.0" layoutY="371.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="109.0" text="Salvar" />
+      <TextField layoutX="127.0" layoutY="64.0" prefHeight="25.0" prefWidth="458.0" />
+      <Label layoutX="77.0" layoutY="95.0" text="RG:" textFill="#f7f7f8">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="32.0" layoutY="303.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="109.0" style="-fx-background-color: #00cc66;" styleClass="mainFxmlClass" text="Salvar" textFill="#edeef5">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <TextField layoutX="127.0" layoutY="100.0" prefHeight="25.0" prefWidth="182.0" />
+      <Label layoutX="161.0" layoutY="14.0" text="Cadastro de Professor" textFill="#f3f3f4">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="443.0" layoutY="303.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="143.0" style="-fx-background-color: #00cc66;" styleClass="mainFxmlClass" text="Cancelar" textFill="#f4f4f8">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <TextField layoutX="393.0" layoutY="100.0" prefHeight="25.0" prefWidth="192.0" />
+      <Label layoutX="322.0" layoutY="95.0" text="CPF:" textFill="#f7f7f8">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="135.0" text="Telefone:" textFill="#f7f7f8">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField layoutX="132.0" layoutY="140.0" prefHeight="25.0" prefWidth="458.0" />
+      <TextField layoutX="132.0" layoutY="176.0" prefHeight="25.0" prefWidth="458.0" />
+      <Label layoutX="53.0" layoutY="171.0" text="Email:" textFill="#f7f7f8">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="11.0" layoutY="207.0" text="Endereço:" textFill="#f7f7f8">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField layoutX="132.0" layoutY="212.0" prefHeight="25.0" prefWidth="458.0" />
+      <Button layoutX="481.0" layoutY="237.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="109.0" style="-fx-background-color: #00cc66;" styleClass="mainFxmlClass" text="Horário" textFill="#f4f4f8">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
    </children>
-</AnchorPane>
+</Pane>

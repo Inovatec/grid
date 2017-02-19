@@ -16,12 +16,18 @@
             <Image url="@../../../../../../telas%20grid%20-%20Copia/src/telas/grid_imagens/01.jpg" />
          </image>
       </ImageView>
+      <Label layoutX="40.0" layoutY="132.0" text="Aula:" textFill="#f7f7f8">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField layoutX="121.0" layoutY="137.0" prefHeight="25.0" prefWidth="458.0" />
       <Button layoutX="32.0" layoutY="303.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="109.0" style="-fx-background-color: #00cc66;" styleClass="mainFxmlClass" text="Salvar" textFill="#edeef5">
          <font>
             <Font name="System Bold" size="22.0" />
          </font>
       </Button>
-      <Label layoutX="204.0" layoutY="14.0" text="Cadastro de  Sala" textFill="#f3f3f4">
+      <Label layoutX="257.0" layoutY="20.0" text="Grade" textFill="#f3f3f4">
          <font>
             <Font name="System Bold" size="30.0" />
          </font>
@@ -31,23 +37,5 @@
             <Font name="System Bold" size="22.0" />
          </font>
       </Button>
-      <Label layoutX="8.0" layoutY="127.0" text="Tipo de Sala:" textFill="#f7f7f8">
-         <font>
-            <Font name="System Bold" size="25.0" />
-         </font>
-      </Label>
-      <TextField layoutX="172.0" layoutY="133.0" prefHeight="25.0" prefWidth="421.0" />
-      <Label layoutX="23.0" layoutY="171.0" text="Descrição:" textFill="#f7f7f8">
-         <font>
-            <Font name="System Bold" size="25.0" />
-         </font>
-      </Label>
-      <TextField layoutX="169.0" layoutY="88.0" prefHeight="25.0" prefWidth="421.0" />
-      <Label layoutX="57.0" layoutY="82.0" text="Nome:" textFill="#f7f7f8">
-         <font>
-            <Font name="System Bold" size="25.0" />
-         </font>
-      </Label>
-      <TextArea layoutX="172.0" layoutY="177.0" prefHeight="92.0" prefWidth="421.0" />
    </children>
 </Pane>
