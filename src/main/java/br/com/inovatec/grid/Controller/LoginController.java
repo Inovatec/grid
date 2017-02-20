@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.inovatec.grid.telaController;
+package br.com.inovatec.grid.Controller;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -12,9 +12,9 @@ import javafx.fxml.Initializable;
 /**
  * FXML Controller class
  *
- * @author joaol
+ * @author OK_
  */
-public class TelaLoginController implements Initializable {
+public class LoginController implements Initializable {
 
     /**
      * Initializes the controller class.

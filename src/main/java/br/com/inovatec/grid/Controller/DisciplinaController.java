@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Controller;
+package br.com.inovatec.grid.Controller;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -14,7 +14,7 @@ import javafx.fxml.Initializable;
  *
  * @author OK_
  */
-public class ProfessorController implements Initializable {
+public class DisciplinaController implements Initializable {
 
     /**
      * Initializes the controller class.
